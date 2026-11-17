@@ -1,0 +1,44 @@
+{
+  "name": "spotify-now-playing",
+  "displayName": "Spotify Now Playing",
+  "description": "Shows the current Spotify track in the status bar. Click it to open Spotify.",
+  "version": "0.1.0",
+  "publisher": "lorenzorossi",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "spotify",
+    "now playing",
+    "music",
+    "status bar"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "spotifyNowPlaying.open",
+        "title": "Spotify Now Playing: Open Spotify"
+      }
+    ],
+    "icons": {
+      "spotify-logo": {
+        "description": "Spotify logo",
+        "default": {
+          "fontPath": "./assets/spotify.woff",
+          "fontCharacter": "\\e900"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "test": "node --test test/"
+  }
+}
