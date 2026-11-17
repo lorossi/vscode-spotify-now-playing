@@ -76,7 +76,7 @@ code --extensionDevelopmentPath=/path/to/this/folder
 
 ## Disclaimer
 
-This is an independent project and is not affiliated with or endorsed by Spotify. "Spotify" is a trademark of Spotify AB.
+This is an independent project and is not affiliated with or endorsed by Spotify. "Spotify" and the Spotify logo are trademarks of Spotify AB. The logo used for the extension icon and the status bar icon is Spotify's, used under their [brand guidelines](https://developer.spotify.com/documentation/design); it is not covered by this project's MIT license.
 
 ## License
 
