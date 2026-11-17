@@ -16,5 +16,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci
-      - run: npx @vscode/vsce publish --oidc
+      - run: npm test
+      # The git tag is the source of truth: v1.2.3 publishes version 1.2.3.
+      - run: npx @vscode/vsce publish "${GITHUB_REF_NAME#v}" --no-git-tag-version --oidc
