@@ -1,8 +1,9 @@
 {
   "name": "spotify-now-playing",
   "displayName": "Spotify Now Playing",
+  "icon": "icon.png",
   "description": "Shows the current Spotify track in the status bar. Click it to open Spotify.",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "publisher": "lorenzorossi",
   "license": "MIT",
   "engines": {
