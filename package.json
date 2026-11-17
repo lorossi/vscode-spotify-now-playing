@@ -40,5 +40,9 @@
   },
   "scripts": {
     "test": "node --test test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorossi/vscode-spotify-now-playing"
   }
 }
