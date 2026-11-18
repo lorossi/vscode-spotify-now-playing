@@ -1,7 +1,8 @@
 # Spotify Now Playing
 
-[![Marketplace version](https://img.shields.io/visual-studio-marketplace/v/lorenzorossi.spotify-now-playing)](https://marketplace.visualstudio.com/items?itemName=lorenzorossi.spotify-now-playing)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/lorenzorossi.spotify-now-playing)](https://marketplace.visualstudio.com/items?itemName=lorenzorossi.spotify-now-playing)
+[![Visual Studio Marketplace Version (short)](https://vsmarketplacebadges.dev/version-short/lorenzorossi.spotify-now-playing.svg)](https://marketplace.visualstudio.com/items?itemName=lorenzorossi.spotify-now-playing)
+[![Visual Studio Marketplace Installs (short)](https://vsmarketplacebadges.dev/installs-short/lorenzorossi.spotify-now-playing.svg)](https://marketplace.visualstudio.com/items?itemName=lorenzorossi.spotify-now-playing)
+[![Visual Studio Marketplace Rating (star)](https://vsmarketplacebadges.dev/rating-star/lorenzorossi.spotify-now-playing.svg)](https://marketplace.visualstudio.com/items?itemName=lorenzorossi.spotify-now-playing)
 [![CI](https://github.com/lorossi/vscode-spotify-now-playing/actions/workflows/ci.yml/badge.svg)](https://github.com/lorossi/vscode-spotify-now-playing/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/github/license/lorossi/vscode-spotify-now-playing)](https://github.com/lorossi/vscode-spotify-now-playing/blob/main/LICENSE)
 
@@ -26,6 +27,7 @@ No extra setup.
 Open Spotify and play something.
 
 Notes:
+
 - The track comes from Spotify's window title, which only contains the song while it is playing. Paused or idle shows "not playing".
 - If Spotify is closed to the system tray, the window may have no title, so it shows "not playing". Keep the window open or minimized to the taskbar.
 - An artist name containing ` - ` is split wrongly.
