@@ -45,8 +45,8 @@ const backends = {
 async function update() {
   const reader = backends[process.platform];
   if (!reader) return;
-
-  item.text = `${formatText(await reader())} ${LOGO}`;
+  const text = `${LOGO} ${formatText(await reader())}`;
+  item.text = text;
 }
 
 async function openSpotify() {
